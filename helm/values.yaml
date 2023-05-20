@@ -2,20 +2,17 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
+repository: mirik12
+tag: "v5.0.0-e1e880e"
+arch: arm64
+TELE_TOKEN: TELE_TOKEN
+
 replicaCount: 1
 
-image:
-  repository: mirik12
-  # Overrides the image tag whose default is the chart appVersion.
-  tag: "v5.0.0-e1e880e"
+service:
+  port: 80
 
 secret:
   name: kbot
   tokenKey: token
   tokenName: TELE_TOKEN
-
-service:
-  port: 80
-
-
-
