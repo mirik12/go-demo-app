@@ -2,10 +2,11 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-repository: mirik12
-tag: "v5.0.0-e1e880e"
-arch: arm64
-TELE_TOKEN: TELE_TOKEN
+image:
+  repository: mirik12
+  tag: "v5.0.0-e1e880e"
+  arch: amr64
+  TELE_TOKEN: TELE_TOKEN
 
 replicaCount: 1
 
